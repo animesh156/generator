@@ -1,0 +1,58 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 20px;
+  border: 2px solid red;
+  width: 400px;
+  background-color:rgb(150, 231, 227);
+ 
+  margin: auto;
+}
+
+body {
+ background-color: rgb(179, 238, 140);
+}
+.output-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.extra {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+   padding-top: 20px; 
+  
+}
+
+.gen input {
+  height: 32px;
+  width: 250px;
+  font-size: 20px;
+  padding-left: 5px;
+  background-color: rgb(210, 214, 214);
+  color: black;
+}
+
+button{
+  position: relative;
+  height: 38px;
+  width: 100px;
+  top: -2px;
+  font-size: 18px;
+  border: none;
+  color: whitesmoke;
+  background-color: rgb(49, 27, 175);
+  box-shadow: 2px 2px 5px rgb(74, 182, 74);
+  cursor: pointer;
+}
+
+span {
+  font-weight: 600;
+  font-size: larger;
+}
